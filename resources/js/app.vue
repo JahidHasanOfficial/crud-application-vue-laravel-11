@@ -1,15 +1,15 @@
 <template>
   <div id="app">
     <header>
-      <h1 class="text-dark">Welcome to My Vue Appw</h1>
+      <h1 class="text-dark">Welcome to My Vue App</h1>
     </header>
     <nav>
-      <router-link to="/">Home</router-link> |
-      <router-link to="/create">Add New</router-link>
-    </nav>
+            <router-link :to="{ name: 'home' }">Home</router-link> |
+            <router-link :to="{ name: 'create' }" class="btn btn-primary">Add New</router-link>
+        </nav>
     <main>
       <router-view />
-      <h1 class="text-center">hello</h1>
+   
     </main>
     <footer>
       <p>&copy; 2024 My Vue App</p>
@@ -23,7 +23,7 @@ export default {
 };
 </script>
 
-<style scop>
+<style>
 #app {
   font-family: Arial, sans-serif;
   margin: 0;

@@ -5,7 +5,7 @@ const router = createRouter({
     history: createWebHistory(),
     routes: [
         {
-            path: "/",
+            path: "/home",
             name: "home",
             component: () => import("./../crud/index.vue"),
         },
@@ -21,3 +21,5 @@ const router = createRouter({
         },
     ],
 });
+
+export default router;

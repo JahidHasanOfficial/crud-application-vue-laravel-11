@@ -21,7 +21,6 @@
     </head>
     <body class="font-sans antialiased dark:bg-black dark:text-white/50">
         <div class="bg-gray-50 text-black/50 dark:bg-black dark:text-white/50">
-<h1 class="text-center">hello</h1>
             <div id="app">
 
             </div>
